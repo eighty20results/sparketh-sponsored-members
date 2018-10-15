@@ -5,7 +5,7 @@
 class_name="Sparketh: Sponsored Members Settings"
 short_name='sparketh-sponsored-members'
 server="eighty20results.com"
-include=(js includes ${short_name}.php README.txt)
+include=(includes js ${short_name}.php README.txt)
 exclude=(*.yml *.phar composer.* vendor)
 build=(plugin-updates/vendor/*.php)
 plugin_path="${short_name}"
