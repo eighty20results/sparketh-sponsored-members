@@ -1,0 +1,14 @@
+ENHANCEMENT: Refactor check for required info in clauses - Select::hasRequiredInfo()
+ENHANCEMENT: Convert Approvals::changeDirectoryVisibility() to static
+ENHANCEMENT: Add license/copyright to Select() class
+BUG FIX: Didn't exclude all 'pending' members from the member directory
+BUG FIX: Make the Select() class work in Approvals::getUsersWithStatus()
+BUG FIX: Renamed 'table' attribute to 'from' in Select() class
+BUG FIX: Need to verify that FROM clause contains required data when adding a table
+BUG FIX: Select::addColumns() validate column data before calling addColumn() to add the column info
+BUG FIX: Confusing name for Select::whereSettings() method
+BUG FIX: Didn't have own 'FROM' clause generator
+BUG FIX: Didn't include JOIN clauses in SQL statement
+BUG FIX: Select::getColumns() list contained trailing comma for last entry (causes SQL error)
+BUG FIX: Select::getColumns() updated to handle prefix for table.column and alias ( AS ... )
+BUG FIX: Select::getWhere() had problems with sub-clauses and wrapping parenthesis properly
