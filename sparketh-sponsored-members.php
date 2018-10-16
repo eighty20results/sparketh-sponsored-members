@@ -159,7 +159,7 @@ class SP_Sponsored_Members {
 				$value = ! empty( $user->user_registered ) ? date( 'Y-m-d H:i:s', strtotime( $user->user_registered, current_time( 'timestamp' ) ) ) : null;
 				break;
 			
-			case 'pmpro_sponsor':
+			case 'pmprosm_sponsor':
 				$value = function_exists( 'pmprosm_getSponsor' ) ? pmprosm_getSponsor( $user->ID, true ) : null;
 				break;
 			
