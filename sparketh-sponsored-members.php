@@ -160,7 +160,8 @@ class SP_Sponsored_Members {
 				break;
 			
 			case 'pmprosm_sponsor':
-				$value = function_exists( 'pmprosm_getSponsor' ) ? pmprosm_getSponsor( $user->ID, true ) : null;
+				$sponsor_user = function_exists( 'pmprosm_getSponsor' ) ? pmprosm_getSponsor( $user->ID, true ) : null;
+				$value =  !empty( $sponsor_user ) ? $user->ID : null;
 				break;
 			
 			case 'membership_startdate':
