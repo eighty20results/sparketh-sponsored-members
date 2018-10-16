@@ -1,1 +1,1 @@
-BUG FIX: Didn't fetch sponsor's account ID where applicable
+BUG FIX: Fatal Error as pmprsm_getSponsor() returns User's WP_User() object, not an ID

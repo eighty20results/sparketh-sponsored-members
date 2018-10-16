@@ -1,17 +1,17 @@
 {
   "name" : "Sparketh: Sponsored Member Settings",
   "slug" : "sparketh-sponsored-members",
-  "download_url" : "https://eighty20results.com/protected-content/sparketh-sponsored-members/sparketh-sponsored-members-1.1.zip",
-  "version" : "1.1",
+  "download_url" : "https://eighty20results.com/protected-content/sparketh-sponsored-members/sparketh-sponsored-members-1.2.zip",
+  "version" : "1.2",
   "tested": "4.9.8",
   "requires": "4.8",
   "author" : "Thomas Sjolshagen <thomas@eighty20results.com>",
   "author_homepage": "https://eighty20results.com/thomas-sjolshagen",
-  "last_updated": "2018-10-16 11:30:00 MDT",
+  "last_updated": "2018-10-16 11:45:00 MDT",
   "homepage": "https://eighty20results.com/paid-memberships-pro/do-it-for-me/",
   "sections" : {
     "description" : "<p>Sparketh: Sponsored Member Settings plugin",
-    "changelog": "<h3>1.1</h3><ol><li>BUG FIX: Didn't fetch sponsor's account ID where applicable</li></ol><h3>1.0</h3><ol><li>Initial release</li></ol>",
+    "changelog": "<h3>1.2</h3><ol><li>BUG FIX: Fatal Error as pmprsm_getSponsor() returns User's WP_User() object, not an ID</li></ol><h3>1.1</h3><ol><li>BUG FIX: Didn't fetch sponsor's account ID where applicable</li></ol><h3>1.0</h3><ol><li>Initial release</li></ol>",
     "faq": "<h3></h3><h3>I found a bug in the plugin.</h3>Please report your issue to us by using the <a href='https://eighty20results.com/support-forums/forum/support-forums/custom-code/' target='_blank'>Custom Code</a> Support Forum on The Eighty / 20 Website, and we'll normally respond within 1 business day."
     }
 }
