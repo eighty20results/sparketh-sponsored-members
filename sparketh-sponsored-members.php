@@ -3,7 +3,7 @@
 Plugin Name: Sparketh: Sponsored Members, etc
 Plugin URI: https://eighty20results.com/paid-memberships-pro/do-it-for-me/
 Description: Configure sponsored memberships, Export to CSV, etc
-Version: 1.0
+Version: 1.1
 Author: Eighty / 20 Results by WSC, LLC <thomas@eighty20results.com>
 Author URI: https://eighty20results.com/thomas-sjolshagen/
 License: GPL2

@@ -1,1 +1,1 @@
-Initial release (v1.0)
+BUG FIX: Didn't fetch sponsor's account ID where applicable
